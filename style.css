@@ -14,6 +14,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    /* position: sticky; */
 }
 .navmain{
     display: flex;
@@ -21,6 +22,8 @@
     width: 100%;
     height: 100px;
     background-color: black;
+    /* position:absolute; */
+    /* top: 0%; */
     /* background-color: aqua */
 }
 .categories{
@@ -44,4 +47,35 @@
     text-decoration: none;
     color: white;
     font-weight: bolder;
+}
+.content{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.content p{
+    font-weight: 20px;
+    font-size: large;
+}
+.rcontent{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.rc{
+    width: 90px;
+    height: 90px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: thin black;
+}
+.rc p{
+    font-size: small;
+    position: r;
 }
